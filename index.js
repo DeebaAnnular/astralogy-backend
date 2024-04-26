@@ -27,6 +27,6 @@ const server = http.createServer((req, res) => {
     res.end('Connected to host\n');
 });
 
-server.listen(5000, () => {
+server.listen(8080, () => {
     console.log('HTTP server listening on port 80');
 });
